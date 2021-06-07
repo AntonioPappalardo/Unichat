@@ -1,0 +1,144 @@
+[
+    {
+
+        "chanelId":"00000001",
+        "contact":{
+            "person1":"1",
+            "person2":"2"
+        },
+        "deleted":{
+            "contact1":false,
+            "contact2":false
+        },
+        "messages":[
+            {
+                "from":"2",
+                "body":"che fai?",
+                "time":"10:10:55",
+                "read": false
+            },            
+            {
+                "from":"2",
+                "body":"Beneee!",
+                "time":"10:10:00",
+                "read": false
+            },
+            {
+                "from":"1",
+                "body":"Non mi lamento",
+                "time":"10:01:15",
+                "read": true
+            },
+            {
+                "from":"2",
+                "body":"Tu?",
+                "time":"10:10:55",
+                "read": false
+            },
+
+            {
+                "from":"2",
+                "body":"Bene!",
+                "time":"10:10:00",
+                "read": false
+            },
+            {
+                "from":"1",
+                "body":"Come Stai?",
+                "time":"10:01:15",
+                "read": true
+            },  
+            {
+                "from":"2",
+                "body":"Ciao!",
+                "time":"09:43:25",
+                "read": true
+            },          
+            {
+                "from":"1",
+                "body":"Ciaooo",
+                "time":"09:37:00",
+                "read": true
+            }
+
+            
+
+
+
+            
+
+        ]
+    },
+   
+    {
+
+        "chanelId":"00000003",
+        "contact":{
+            "person1":"1",
+            "person2":"4"
+        },
+        "deleted":{
+            "contact1":false,
+            "contact2":false
+        },
+        "messages":[
+            {
+                "from":"1",
+                "body":"Tu?",
+                "time":"10:10:55",
+                "read": false
+            },
+            {
+                "from":"1",
+                "body":"Bene!",
+                "time":"10:10:45",
+                "read": false
+            },
+            
+            {
+                "from":"4",
+                "body":"Come Stai?",
+                "time":"10:01:55",
+                "read": true
+            }, 
+            {
+                "from":"1",
+                "body":"Ciao!",
+                "time":"09:02:28",
+                "read": true
+            },           
+            {
+                "from":"4",
+                "body":"Ciaooo",
+                "time":"09:01:14",
+                "read": true
+            }
+        ]
+    },
+    {
+
+        "chanelId":"00000004",
+        "contact":{
+            "person1":"1",
+            "person2":"5"
+        },
+        "deleted":{
+            "contact1":false,
+            "contact2":false
+        },
+        "messages":[
+            {
+                "from":"1",
+                "body":"Ciaooo",
+                "time":"10:10:55",
+                "read": true
+            },
+            {
+                "from":"5",
+                "body":"Ciao!",
+                "time":"10:10:55",
+                "read": true
+            }
+        ]
+    }
+]

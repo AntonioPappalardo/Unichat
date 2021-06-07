@@ -1,0 +1,27 @@
+
+
+
+.box {
+	border: 1px solid #000;
+	background-color: green;
+}
+.mybox {
+	@extend .box;
+	font-size: 10px;
+}
+
+
+
+
+@mixin baseButton($bgColor)
+{
+	appearance: none;
+	background: $bgColor;
+	outline: 1px solid $bgColor;
+	box-shadow: 0 0 10px $bgColor;
+	color: white;
+	border: 1px solid white;
+}
+button.green{
+	@include baseButton(green);
+}
